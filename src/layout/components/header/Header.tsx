@@ -1,13 +1,14 @@
 import React, { FC } from "react";
-
-import './Header.css'
+import { NavigationMenu } from "../navigation/NavigationMenu";
+import { HeaderStyle } from "./HeaderStyle";
 
 
 const Header: FC = () => {
     return (
-        <div className="header header-fixed">
-            
-        </div>
+        <HeaderStyle>
+           <NavigationMenu/>
+        </HeaderStyle>
+
     )
 }
 
